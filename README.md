@@ -1,5 +1,13 @@
 # Storefront Suite Web (Frontend Demo)
 
+[![React](https://img.shields.io/badge/React%2018-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vite.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Vitest](https://img.shields.io/badge/tests-Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)](https://vitest.dev/)
+![No backend](https://img.shields.io/badge/backend-none%20required-2f6f4e?style=flat-square)
+
+
 A fully working, front-end-only demo application built to showcase architecture, code
 organization and UI engineering skills. It reproduces three common retail workflows
 (**Contacts**, **Point of Sale (POS)** and **Service Orders**), with all data mocked in
@@ -7,6 +15,20 @@ memory and persisted to `localStorage`, so it runs standalone with **no backend 
 
 This project is a portfolio piece: it is not connected to, and does not depend on, any
 production system.
+
+## Screens
+
+**Point of Sale**, cart built from a mocked catalog, with stock validation and an optional customer.
+
+![Point of Sale](docs/point-of-sale.png)
+
+**Contacts**, the customer and supplier registry.
+
+![Contacts](docs/contacts.png)
+
+**Service Orders**, each order moving through `open`, `in_progress`, `closed` or `cancelled`.
+
+![Service Orders](docs/service-orders.png)
 
 ## Features
 
