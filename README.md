@@ -1,8 +1,8 @@
-# Storefront Suite — Web (Frontend Demo)
+# Storefront Suite Web (Frontend Demo)
 
 A fully working, front-end-only demo application built to showcase architecture, code
-organization and UI engineering skills. It reproduces three common retail workflows —
-**Contacts**, **Point of Sale (POS)** and **Service Orders** — with all data mocked in
+organization and UI engineering skills. It reproduces three common retail workflows
+(**Contacts**, **Point of Sale (POS)** and **Service Orders**), with all data mocked in
 memory and persisted to `localStorage`, so it runs standalone with **no backend required**.
 
 This project is a portfolio piece: it is not connected to, and does not depend on, any
@@ -10,13 +10,13 @@ production system.
 
 ## Features
 
-- **Contacts** — create, edit, list and delete customer records.
-- **Point of Sale** — build a cart from a mocked product catalog, optionally attach a
+- **Contacts**: create, edit, list and delete customer records.
+- **Point of Sale**: build a cart from a mocked product catalog, optionally attach a
   customer, and check out (with stock validation).
-- **Sales History** — browse every completed sale and cancel one if needed.
-- **Service Orders** — open an order for a customer, move it through `open → in_progress
+- **Sales History**: browse every completed sale and cancel one if needed.
+- **Service Orders**: open an order for a customer, move it through `open → in_progress
   → closed/cancelled`.
-- **Service Orders History** — browse closed/cancelled orders with their full status
+- **Service Orders History**: browse closed/cancelled orders with their full status
   timeline.
 
 ## Architecture
@@ -50,7 +50,7 @@ Colors, typography, spacing and component patterns (collapsible icon-rail sideba
 kicker + two-tone display headline in the page header, shadow-only elevated cards,
 modal-based forms with a confirm dialog for destructive actions, zebra-striped data
 tables) follow a single small design system defined in `src/index.css` and
-`tailwind.config.js` — CSS variables for light/dark tokens, `Plus Jakarta Sans` /
+`tailwind.config.js`, CSS variables for light/dark tokens, `Plus Jakarta Sans` /
 `JetBrains Mono` typography, and a handful of `app-*` utility classes
 (`app-card`, `app-btn-primary`, `app-input`, …) applied consistently across every
 screen.
@@ -76,7 +76,7 @@ npm test
 ```
 
 Unit tests exercise the `services/` layer against lightweight in-memory fakes of the
-repository interfaces — no mocking frameworks, no I/O, fast and deterministic.
+repository interfaces, no mocking frameworks, no I/O, fast and deterministic.
 
 ## Type-check & build
 
